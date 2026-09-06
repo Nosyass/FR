@@ -1,0 +1,715 @@
+{
+  "source": {
+    "id": "RGESN_2024",
+    "name": "Référentiel général d'écoconception de services numériques v2",
+    "organization": "Arcep et Arcom, en lien avec l'ADEME",
+    "version": "2",
+    "published": "2024-05-28",
+    "url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/",
+    "kevin_status": "EXTERNAL_REFERENCE_TO_VALIDATE"
+  },
+  "rules": [
+    {
+      "id": "RGESN-1.1",
+      "upstream_id": "1.1",
+      "title": "Le service numérique a-t-il été évalué favorablement en termes d'utilité en tenant compte de ses impacts environnementaux ?",
+      "category": "Stratégie",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#1-1"
+    },
+    {
+      "id": "RGESN-1.2",
+      "upstream_id": "1.2",
+      "title": "Le service numérique a-t-il défini ses cibles utilisatrices, les besoins métiers et les attentes réelles des utilisateurs-cibles ?",
+      "category": "Stratégie",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#1-2"
+    },
+    {
+      "id": "RGESN-1.3",
+      "upstream_id": "1.3",
+      "title": "Le service numérique a-t-il au moins un référent identifié en écoconception numérique ?",
+      "category": "Stratégie",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#1-3"
+    },
+    {
+      "id": "RGESN-1.4",
+      "upstream_id": "1.4",
+      "title": "Le service numérique réalise-t-il régulièrement des revues pour s’assurer du respect de sa démarche d’écoconception ?",
+      "category": "Stratégie",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#1-4"
+    },
+    {
+      "id": "RGESN-1.5",
+      "upstream_id": "1.5",
+      "title": "Le service numérique s’est-il fixé des objectifs en matière de réduction ou de limitation de ses propres impacts environnementaux ?",
+      "category": "Stratégie",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#1-5"
+    },
+    {
+      "id": "RGESN-1.6",
+      "upstream_id": "1.6",
+      "title": "Le service numérique collecte-t-il la donnée de façon responsable et raisonnée ?",
+      "category": "Stratégie",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#1-6"
+    },
+    {
+      "id": "RGESN-1.7",
+      "upstream_id": "1.7",
+      "title": "Le service numérique a-t-il recours à un niveau de chiffrement adapté à ses besoins ?",
+      "category": "Stratégie",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#1-7"
+    },
+    {
+      "id": "RGESN-1.8",
+      "upstream_id": "1.8",
+      "title": "Le service numérique a-t-il mis en place des efforts d’open source ?",
+      "category": "Stratégie",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#1-8"
+    },
+    {
+      "id": "RGESN-1.9",
+      "upstream_id": "1.9",
+      "title": "Le service numérique a-t-il été conçu avec des technologies standard interopérables plutôt que des technologies spécifiques et fermées ?",
+      "category": "Stratégie",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#1-9"
+    },
+    {
+      "id": "RGESN-1.10",
+      "upstream_id": "1.10",
+      "title": "Le service numérique repose-t-il sur des API documentées et ouvertes pour interagir avec le matériel ?",
+      "category": "Stratégie",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#1-10"
+    },
+    {
+      "id": "RGESN-2.1",
+      "upstream_id": "2.1",
+      "title": "Le service numérique a-t-il défini la liste des profils de matériels que les utilisateurs vont pouvoir employer pour y accéder ?",
+      "category": "Spécifications",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#2-1"
+    },
+    {
+      "id": "RGESN-2.2",
+      "upstream_id": "2.2",
+      "title": "Le service numérique est-il utilisable sur d’anciens modèles de terminaux ?",
+      "category": "Spécifications",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#2-2"
+    },
+    {
+      "id": "RGESN-2.3",
+      "upstream_id": "2.3",
+      "title": "Le service numérique est-il utilisable via une connexion bas débit ou hors connexion ?",
+      "category": "Spécifications",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#2-3"
+    },
+    {
+      "id": "RGESN-2.4",
+      "upstream_id": "2.4",
+      "title": "Le service numérique est-il utilisable sur d’anciennes versions de système d’exploitation et de navigateurs web ?",
+      "category": "Spécifications",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#2-4"
+    },
+    {
+      "id": "RGESN-2.5",
+      "upstream_id": "2.5",
+      "title": "Le service numérique s’adapte-t-il à différents types de terminaux d’affichage ?",
+      "category": "Spécifications",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#2-5"
+    },
+    {
+      "id": "RGESN-2.6",
+      "upstream_id": "2.6",
+      "title": "Le service numérique a-t-il été conçu avec une revue de conception et une revue de code comprenant parmi ses objectifs la réduction des impacts environnementaux de chaque fonctionnalité ?",
+      "category": "Spécifications",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#2-6"
+    },
+    {
+      "id": "RGESN-2.7",
+      "upstream_id": "2.7",
+      "title": "Le service numérique a-t-il prévu une stratégie de maintenance et de décommissionnement ?",
+      "category": "Spécifications",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#2-7"
+    },
+    {
+      "id": "RGESN-2.8",
+      "upstream_id": "2.8",
+      "title": "Le service numérique impose-t-il à ses fournisseurs de garantir une démarche de réduction de leurs impacts environnementaux ?",
+      "category": "Spécifications",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#2-8"
+    },
+    {
+      "id": "RGESN-2.9",
+      "upstream_id": "2.9",
+      "title": "Le service numérique a-t-il pris en compte les impacts environnementaux des composants d’interface prêts à l’emploi utilisés ?",
+      "category": "Spécifications",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#2-9"
+    },
+    {
+      "id": "RGESN-2.10",
+      "upstream_id": "2.10",
+      "title": "Le service numérique a-t-il pris en compte les impacts environnementaux des services tiers utilisés lors de leur sélection ?",
+      "category": "Spécifications",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#2-10"
+    },
+    {
+      "id": "RGESN-3.1",
+      "upstream_id": "3.1",
+      "title": "Le service numérique repose-t-il sur une architecture, des ressources ou des composants conçus pour réduire leurs propres impacts environnementaux ?",
+      "category": "Architecture",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#3-1"
+    },
+    {
+      "id": "RGESN-3.2",
+      "upstream_id": "3.2",
+      "title": "Le service numérique fonctionne-t-il sur une architecture pouvant adapter la quantité de ressources utilisées à la consommation du service ?",
+      "category": "Architecture",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#3-2"
+    },
+    {
+      "id": "RGESN-3.3",
+      "upstream_id": "3.3",
+      "title": "Le service numérique est-il en mesure de supporter l’évolution technique des protocoles ?",
+      "category": "Architecture",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#3-3"
+    },
+    {
+      "id": "RGESN-3.4",
+      "upstream_id": "3.4",
+      "title": "Le service numérique garantit-il la mise à disposition de mises à jour correctives pendant toute la durée de vie prévue des équipements et des logiciels liés au service ?",
+      "category": "Architecture",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#3-4"
+    },
+    {
+      "id": "RGESN-3.5",
+      "upstream_id": "3.5",
+      "title": "Le service numérique propose-t-il d’installer des mises à jour correctives indépendamment des mises à jour évolutives de façon transparente ?",
+      "category": "Architecture",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#3-5"
+    },
+    {
+      "id": "RGESN-3.6",
+      "upstream_id": "3.6",
+      "title": "Le service numérique propose-t-il les mises à jour incrémentielles, afin de ne pas remplacer tout le code à chaque mise à jour ?",
+      "category": "Architecture",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#3-6"
+    },
+    {
+      "id": "RGESN-3.7",
+      "upstream_id": "3.7",
+      "title": "Le service numérique optimise-t-il la sollicitation des environnements de développement, de préproduction ou de test en fonction de ses besoins ?",
+      "category": "Architecture",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#3-7"
+    },
+    {
+      "id": "RGESN-4.1",
+      "upstream_id": "4.1",
+      "title": "Le service numérique comporte-t-il uniquement des animations, vidéos et sons dont la lecture automatique est désactivée ?",
+      "category": "UX/UI",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#4-1"
+    },
+    {
+      "id": "RGESN-4.2",
+      "upstream_id": "4.2",
+      "title": "Le service numérique affiche-t-il uniquement des contenus sans défilement infini ?",
+      "category": "UX/UI",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#4-2"
+    },
+    {
+      "id": "RGESN-4.3",
+      "upstream_id": "4.3",
+      "title": "Le service numérique optimise-t-il le parcours de navigation pour chaque fonctionnalité principale ?",
+      "category": "UX/UI",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#4-3"
+    },
+    {
+      "id": "RGESN-4.4",
+      "upstream_id": "4.4",
+      "title": "Le service numérique permet-il à l’utilisateur de décider de l’activation d’un service tiers ?",
+      "category": "UX/UI",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#4-4"
+    },
+    {
+      "id": "RGESN-4.5",
+      "upstream_id": "4.5",
+      "title": "Le service numérique utilise-t-il majoritairement des composants fonctionnels natifs du système d’exploitation, du navigateur ou du langage utilisé ?",
+      "category": "UX/UI",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#4-5"
+    },
+    {
+      "id": "RGESN-4.6",
+      "upstream_id": "4.6",
+      "title": "Le service numérique utilise-t-il uniquement du contenu vidéo, audio et animé porteur d’informations ?",
+      "category": "UX/UI",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#4-6"
+    },
+    {
+      "id": "RGESN-4.7",
+      "upstream_id": "4.7",
+      "title": "Le service numérique opte-t-il pour les choix les plus sobres entre le texte, l’image, l’audio ou la vidéo, selon les besoins utilisateurs ?",
+      "category": "UX/UI",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#4-7"
+    },
+    {
+      "id": "RGESN-4.8",
+      "upstream_id": "4.8",
+      "title": "Le service numérique limite-t-il le nombre des polices de caractères téléchargées ?",
+      "category": "UX/UI",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#4-8"
+    },
+    {
+      "id": "RGESN-4.9",
+      "upstream_id": "4.9",
+      "title": "Le service numérique limite-t-il les requêtes serveur lors de la saisie utilisateur ?",
+      "category": "UX/UI",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#4-9"
+    },
+    {
+      "id": "RGESN-4.10",
+      "upstream_id": "4.10",
+      "title": "Le service numérique informe-t-il l’utilisateur du format de saisie attendu, en évitant les requêtes serveur inutiles pour la soumission d’un formulaire ?",
+      "category": "UX/UI",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#4-10"
+    },
+    {
+      "id": "RGESN-4.11",
+      "upstream_id": "4.11",
+      "title": "Le service numérique informe-t-il l’utilisateur, avant le transfert, des poids et formats de fichier attendus ?",
+      "category": "UX/UI",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#4-11"
+    },
+    {
+      "id": "RGESN-4.12",
+      "upstream_id": "4.12",
+      "title": "Le service numérique indique-t-il à l’utilisateur que l’utilisation d’une fonctionnalité a des impacts environnementaux importants ?",
+      "category": "UX/UI",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#4-12"
+    },
+    {
+      "id": "RGESN-4.13",
+      "upstream_id": "4.13",
+      "title": "Le service numérique limite-t-il le recours aux notifications, tout en laissant la possibilité à l’utilisateur de les désactiver ?",
+      "category": "UX/UI",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#4-13"
+    },
+    {
+      "id": "RGESN-4.14",
+      "upstream_id": "4.14",
+      "title": "Le service numérique évite-t-il le recours à des procédés manipulatoires dans son interface utilisateur ?",
+      "category": "UX/UI",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#4-14"
+    },
+    {
+      "id": "RGESN-4.15",
+      "upstream_id": "4.15",
+      "title": "Le service numérique fournit-il à l’utilisateur un moyen de contrôle sur ses usages afin de suivre et de réduire les impacts environnementaux associés ?",
+      "category": "UX/UI",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#4-15"
+    },
+    {
+      "id": "RGESN-5.1",
+      "upstream_id": "5.1",
+      "title": "Le service numérique utilise-t-il un format de fichier adapté au contenu et au contexte de visualisation de chaque image ?",
+      "category": "Contenus",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#5-1"
+    },
+    {
+      "id": "RGESN-5.2",
+      "upstream_id": "5.2",
+      "title": "Le service numérique propose-t-il des images dont le niveau de compression est adapté au contenu et au contexte de visualisation ?",
+      "category": "Contenus",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#5-2"
+    },
+    {
+      "id": "RGESN-5.3",
+      "upstream_id": "5.3",
+      "title": "Le service numérique utilise-t-il, pour chaque vidéo, une définition adaptée au contenu et au contexte de visualisation ?",
+      "category": "Contenus",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#5-3"
+    },
+    {
+      "id": "RGESN-5.4",
+      "upstream_id": "5.4",
+      "title": "Le service numérique propose-t-il des vidéos dont le mode de compression est efficace et adapté au contenu et au contexte de visualisation ?",
+      "category": "Contenus",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#5-4"
+    },
+    {
+      "id": "RGESN-5.5",
+      "upstream_id": "5.5",
+      "title": "Le service numérique propose-t-il un mode « écoute seule » pour ses vidéos ?",
+      "category": "Contenus",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#5-5"
+    },
+    {
+      "id": "RGESN-5.6",
+      "upstream_id": "5.6",
+      "title": "Le service numérique propose-t-il des contenus audios dont le mode de compression est adapté au contenu et au contexte d’écoute ?",
+      "category": "Contenus",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#5-6"
+    },
+    {
+      "id": "RGESN-5.7",
+      "upstream_id": "5.7",
+      "title": "Le service numérique utilise-t-il un format de fichier adapté au contenu et au contexte d’utilisation pour chaque document ?",
+      "category": "Contenus",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#5-7"
+    },
+    {
+      "id": "RGESN-5.8",
+      "upstream_id": "5.8",
+      "title": "Le service numérique a-t-il une stratégie d’archivage et de suppression, automatique ou manuelle, des contenus obsolètes ou périmés ?",
+      "category": "Contenus",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#5-8"
+    },
+    {
+      "id": "RGESN-6.1",
+      "upstream_id": "6.1",
+      "title": "Le service numérique s’astreint-il à un poids maximum et une limite de requête par écran ?",
+      "category": "Frontend",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#6-1"
+    },
+    {
+      "id": "RGESN-6.2",
+      "upstream_id": "6.2",
+      "title": "Le service numérique utilise-t-il des mécanismes de mise en cache pour la totalité des contenus transférés dont il a le contrôle ?",
+      "category": "Frontend",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#6-2"
+    },
+    {
+      "id": "RGESN-6.3",
+      "upstream_id": "6.3",
+      "title": "Le service numérique a-t-il mis en place des techniques de compression pour les ressources transférées dont il a le contrôle ?",
+      "category": "Frontend",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#6-3"
+    },
+    {
+      "id": "RGESN-6.4",
+      "upstream_id": "6.4",
+      "title": "Le service numérique affiche-t-il majoritairement des images dont les dimensions d’origine correspondent aux dimensions du contexte d’affichage ?",
+      "category": "Frontend",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#6-4"
+    },
+    {
+      "id": "RGESN-6.5",
+      "upstream_id": "6.5",
+      "title": "Le service numérique évite-t-il de déclencher le chargement de ressources et de contenus inutilisés pour chaque fonctionnalité ?",
+      "category": "Frontend",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#6-5"
+    },
+    {
+      "id": "RGESN-6.6",
+      "upstream_id": "6.6",
+      "title": "Le service numérique restreint-il l’usage des capteurs des terminaux utilisateurs au besoin du service ?",
+      "category": "Frontend",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#6-6"
+    },
+    {
+      "id": "RGESN-6.7",
+      "upstream_id": "6.7",
+      "title": "Le service numérique héberge-t-il toutes les ressources statiques transférées dont il est l’émetteur sur un même domaine ?",
+      "category": "Frontend",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#6-7"
+    },
+    {
+      "id": "RGESN-7.1",
+      "upstream_id": "7.1",
+      "title": "Le service numérique a-t-il recours à un système de cache serveur pour les données les plus utilisées ?",
+      "category": "Backend",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#7-1"
+    },
+    {
+      "id": "RGESN-7.2",
+      "upstream_id": "7.2",
+      "title": "Le service numérique met-il en place des durées de conservation sur les données et documents en vue de leur suppression ou archivage passé ce délai ?",
+      "category": "Backend",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#7-2"
+    },
+    {
+      "id": "RGESN-7.3",
+      "upstream_id": "7.3",
+      "title": "Le service numérique informe-t-il l’utilisateur d’un traitement en cours en arrière-plan ?",
+      "category": "Backend",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#7-3"
+    },
+    {
+      "id": "RGESN-7.4",
+      "upstream_id": "7.4",
+      "title": "Le service numérique s’appuie-t-il sur un mécanisme de consensus qui minimise sa consommation de ressources ?",
+      "category": "Backend",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#7-4"
+    },
+    {
+      "id": "RGESN-8.1",
+      "upstream_id": "8.1",
+      "title": "Le service numérique utilise-t-il un hébergement ayant une démarche de réduction de son empreinte environnementale ?",
+      "category": "Hébergement",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#8-1"
+    },
+    {
+      "id": "RGESN-8.2",
+      "upstream_id": "8.2",
+      "title": "Le service numérique utilise-t-il un hébergement qui fournit une politique de gestion durable des équipements ?",
+      "category": "Hébergement",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#8-2"
+    },
+    {
+      "id": "RGESN-8.3",
+      "upstream_id": "8.3",
+      "title": "Le service numérique utilise-t-il un hébergement dont le PUE (Power Usage Effectiveness) est minimisé ?",
+      "category": "Hébergement",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#8-3"
+    },
+    {
+      "id": "RGESN-8.4",
+      "upstream_id": "8.4",
+      "title": "Le service numérique utilise-t-il un hébergement dont son WUE (Water Usage Effectiveness) est minimisé ?",
+      "category": "Hébergement",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#8-4"
+    },
+    {
+      "id": "RGESN-8.5",
+      "upstream_id": "8.5",
+      "title": "Le service numérique utilise-t-il un hébergement dont l’origine de consommation d’électricité est documentée et majoritairement d’origine renouvelable ?",
+      "category": "Hébergement",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#8-5"
+    },
+    {
+      "id": "RGESN-8.6",
+      "upstream_id": "8.6",
+      "title": "Le service numérique utilise-t-il un hébergement dont la localisation géographique est cohérente avec ses activités et qui minimise son empreinte environnementale ?",
+      "category": "Hébergement",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#8-6"
+    },
+    {
+      "id": "RGESN-8.7",
+      "upstream_id": "8.7",
+      "title": "Le service numérique utilise-t-il un hébergement qui traite efficacement la chaleur produite par les serveurs ?",
+      "category": "Hébergement",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#8-7"
+    },
+    {
+      "id": "RGESN-8.8",
+      "upstream_id": "8.8",
+      "title": "Le service numérique héberge-t-il de façon distincte les données « chaudes » et « froides » ?",
+      "category": "Hébergement",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#8-8"
+    },
+    {
+      "id": "RGESN-8.9",
+      "upstream_id": "8.9",
+      "title": "Le service numérique duplique-t-il les données uniquement lorsque cela est nécessaire ?",
+      "category": "Hébergement",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#8-9"
+    },
+    {
+      "id": "RGESN-8.10",
+      "upstream_id": "8.10",
+      "title": "Le service numérique tient-il compte des contraintes externes pour minimiser l’impact environnemental des calculs et transferts de données asynchrones ?",
+      "category": "Hébergement",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#8-10"
+    },
+    {
+      "id": "RGESN-9.1",
+      "upstream_id": "9.1",
+      "title": "Le service numérique a-t-il interrogé la nécessité d’une phase d’entraînement pour éviter un usage non justifié et déraisonné ?",
+      "category": "Algorithmie",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#9-1"
+    },
+    {
+      "id": "RGESN-9.2",
+      "upstream_id": "9.2",
+      "title": "Le service numérique utilise-t-il une phase d’apprentissage avec un niveau de complexité minimisé et proportionné à l’usage effectif du service ?",
+      "category": "Algorithmie",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#9-2"
+    },
+    {
+      "id": "RGESN-9.3",
+      "upstream_id": "9.3",
+      "title": "Le service numérique a-t-il mis en place des mécanismes visant à limiter la quantité d’entraînement nécessaire à son fonctionnement ?",
+      "category": "Algorithmie",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#9-3"
+    },
+    {
+      "id": "RGESN-9.4",
+      "upstream_id": "9.4",
+      "title": "Le service numérique limite-il la quantité de données utilisées pour la phase d’apprentissage au strict nécessaire ?",
+      "category": "Algorithmie",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#9-4"
+    },
+    {
+      "id": "RGESN-9.5",
+      "upstream_id": "9.5",
+      "title": "Le service numérique optimise-t-il l’occurrence de mise à jour et de réentraînement des modèles en fonction de ses besoins et des cibles utilisatrices ?",
+      "category": "Algorithmie",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#9-5"
+    },
+    {
+      "id": "RGESN-9.6",
+      "upstream_id": "9.6",
+      "title": "Le service numérique utilise-t-il des techniques de compression pour les modèles utilisés lors de la phase d’entraînement ?",
+      "category": "Algorithmie",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#9-6"
+    },
+    {
+      "id": "RGESN-9.7",
+      "upstream_id": "9.7",
+      "title": "Le service numérique utilise-t-il une stratégie d’inférence optimisée en termes de consommation de ressources et des cibles utilisatrices ?",
+      "category": "Algorithmie",
+      "kevin_status": "EXTERNAL_REFERENCE",
+      "repository_analysis": "MIXED_OR_MANUAL_EVIDENCE",
+      "source_url": "https://ecoresponsable.numerique.gouv.fr/publications/referentiel-general-ecoconception/#9-7"
+    }
+  ]
+}

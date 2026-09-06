@@ -1,0 +1,1463 @@
+{
+  "source": {
+    "id": "KEVIN_PROPOSALS",
+    "name": "Règles complémentaires proposées pour la Facet Green IT",
+    "status": "DRAFT_TO_VALIDATE",
+    "status_note": "Propositions à évaluer avant adoption comme règles internes."
+  },
+  "rules": [
+    {
+      "id": "KEVIN_JAVA_001",
+      "title": "Detect repository or remote calls inside high frequency loops",
+      "domain": "Java and Spring",
+      "technologies": [
+        "Java",
+        "Spring"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [
+        "CREEDENGO:GCI1"
+      ],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_JAVA_002",
+      "title": "Detect repeated serialization and deserialization on hot paths",
+      "domain": "Java runtime",
+      "technologies": [
+        "Java"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_JAVA_003",
+      "title": "Detect expensive object creation inside repeated processing",
+      "domain": "Java runtime",
+      "technologies": [
+        "Java"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_JAVA_004",
+      "title": "Detect unbounded in memory collections and caches",
+      "domain": "Memory",
+      "technologies": [
+        "Java"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [
+        "CREEDENGO:GCI76",
+        "CREEDENGO:GCI89"
+      ],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_JAVA_005",
+      "title": "Detect full dataset loading when pagination or streaming is feasible",
+      "domain": "Data access",
+      "technologies": [
+        "Java",
+        "Spring"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [
+        "CREEDENGO:GCI13",
+        "CREEDENGO:GCI24"
+      ],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_DB_001",
+      "title": "Detect N plus 1 access patterns in persistence code",
+      "domain": "Database",
+      "technologies": [
+        "Java",
+        "JPA",
+        "Hibernate"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [
+        "CREEDENGO:CRJVM206"
+      ],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_DB_002",
+      "title": "Detect database calls performed once per item instead of batch operations",
+      "domain": "Database",
+      "technologies": [
+        "Java",
+        "SQL"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [
+        "CREEDENGO:GCI1",
+        "CREEDENGO:GCI72"
+      ],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_DB_003",
+      "title": "Detect unbounded result queries",
+      "domain": "Database",
+      "technologies": [
+        "SQL"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [
+        "CREEDENGO:GCI24"
+      ],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_DB_004",
+      "title": "Detect retrieval of fields that are never consumed",
+      "domain": "Database",
+      "technologies": [
+        "SQL",
+        "Java"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [
+        "CREEDENGO:GCI95"
+      ],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_DB_005",
+      "title": "Detect missing pagination for potentially large API backed queries",
+      "domain": "Database",
+      "technologies": [
+        "Java",
+        "API"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [
+        "CREEDENGO:GCI13",
+        "CREEDENGO:GCI24"
+      ],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_API_001",
+      "title": "Detect remote calls inside loops",
+      "domain": "Network",
+      "technologies": [
+        "REST",
+        "Java"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_API_002",
+      "title": "Detect repeated calls with identical parameters where caching may apply",
+      "domain": "Network",
+      "technologies": [
+        "REST",
+        "Java"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_API_003",
+      "title": "Detect oversized payload mapping when only a subset is used",
+      "domain": "Network",
+      "technologies": [
+        "REST",
+        "Java"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_API_004",
+      "title": "Detect aggressive polling without a clear business requirement",
+      "domain": "Network",
+      "technologies": [
+        "REST"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [
+        "CREEDENGO:GCI536"
+      ],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_API_005",
+      "title": "Detect retry policies without a clear bound",
+      "domain": "Resilience",
+      "technologies": [
+        "REST",
+        "Java"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_API_006",
+      "title": "Detect retry policies without backoff when repeated failures are possible",
+      "domain": "Resilience",
+      "technologies": [
+        "REST",
+        "Java"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_KAFKA_001",
+      "title": "Detect oversized event payloads containing unused fields",
+      "domain": "Kafka",
+      "technologies": [
+        "Kafka",
+        "Java"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_KAFKA_002",
+      "title": "Detect duplicated data across events without a documented need",
+      "domain": "Kafka",
+      "technologies": [
+        "Kafka"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_KAFKA_003",
+      "title": "Detect excessive topic retention compared with business need",
+      "domain": "Kafka",
+      "technologies": [
+        "Kafka"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_KAFKA_004",
+      "title": "Detect excessive partition counts without capacity justification",
+      "domain": "Kafka",
+      "technologies": [
+        "Kafka"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_KAFKA_005",
+      "title": "Detect repeated REST or database access for each message when batching is possible",
+      "domain": "Kafka",
+      "technologies": [
+        "Kafka",
+        "Java"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_KAFKA_006",
+      "title": "Detect infinite retry or replay loops",
+      "domain": "Kafka",
+      "technologies": [
+        "Kafka"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_KAFKA_007",
+      "title": "Detect reprocessing caused by missing idempotence where duplicates are expected",
+      "domain": "Kafka",
+      "technologies": [
+        "Kafka"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_LOG_001",
+      "title": "Detect verbose logging inside repeated processing paths",
+      "domain": "Observability",
+      "technologies": [
+        "Java",
+        "Logging"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_LOG_002",
+      "title": "Detect complete payload logging without a justified operational need",
+      "domain": "Observability",
+      "technologies": [
+        "Java",
+        "Logging"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_LOG_003",
+      "title": "Detect duplicate logging of the same event across layers",
+      "domain": "Observability",
+      "technologies": [
+        "Java",
+        "Logging"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_LOG_004",
+      "title": "Detect high cardinality metrics that can create excessive telemetry",
+      "domain": "Observability",
+      "technologies": [
+        "Metrics"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_LOG_005",
+      "title": "Detect tracing configured at full sampling without justification",
+      "domain": "Observability",
+      "technologies": [
+        "Tracing"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_LOG_006",
+      "title": "Detect excessive telemetry retention",
+      "domain": "Observability",
+      "technologies": [
+        "Logging",
+        "Tracing"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_DOCKER_001",
+      "title": "Detect oversized container images",
+      "domain": "Container",
+      "technologies": [
+        "Docker"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_DOCKER_002",
+      "title": "Detect build dependencies retained in runtime images",
+      "domain": "Container",
+      "technologies": [
+        "Docker"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_DOCKER_003",
+      "title": "Detect missing multi stage build opportunities for large build images",
+      "domain": "Container",
+      "technologies": [
+        "Docker"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_DOCKER_004",
+      "title": "Detect unnecessary files copied into images",
+      "domain": "Container",
+      "technologies": [
+        "Docker"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_K8S_001",
+      "title": "Detect resource requests significantly higher than documented need",
+      "domain": "Kubernetes",
+      "technologies": [
+        "Kubernetes"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "AWS_SUSTAINABILITY",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_K8S_002",
+      "title": "Detect minimum replica counts that keep unused capacity permanently active",
+      "domain": "Kubernetes",
+      "technologies": [
+        "Kubernetes"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "AWS_SUSTAINABILITY",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_K8S_003",
+      "title": "Detect non production workloads kept active outside useful periods",
+      "domain": "Kubernetes",
+      "technologies": [
+        "Kubernetes"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "AWS_SUSTAINABILITY",
+        "RGESN_2024"
+      ],
+      "related_references": [
+        "GSF:SCALE-DOWN-UNUSED-APPLICATIONS"
+      ],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_K8S_004",
+      "title": "Detect CronJobs running more frequently than the business requirement",
+      "domain": "Kubernetes",
+      "technologies": [
+        "Kubernetes"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "AWS_SUSTAINABILITY",
+        "RGESN_2024"
+      ],
+      "related_references": [
+        "GSF:TIME-SHIFT-KUBERNETES-CRON-JOBS"
+      ],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_K8S_005",
+      "title": "Detect autoscaling based on weak demand proxies when better metrics exist",
+      "domain": "Kubernetes",
+      "technologies": [
+        "Kubernetes"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "AWS_SUSTAINABILITY",
+        "RGESN_2024"
+      ],
+      "related_references": [
+        "GSF:SCALE-KUBERNETES-WORKLOADS-BASED-ON-EVENTS"
+      ],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_CICD_001",
+      "title": "Detect full builds triggered for changes that do not require them",
+      "domain": "CI CD",
+      "technologies": [
+        "CI",
+        "Maven"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_CICD_002",
+      "title": "Detect repeated compilation of unchanged artifacts",
+      "domain": "CI CD",
+      "technologies": [
+        "CI",
+        "Maven"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_CICD_003",
+      "title": "Detect missing dependency cache in frequently executed pipelines",
+      "domain": "CI CD",
+      "technologies": [
+        "CI",
+        "Maven"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_CICD_004",
+      "title": "Detect expensive test suites executed when targeted tests would satisfy the gate",
+      "domain": "CI CD",
+      "technologies": [
+        "CI",
+        "Testing"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_CICD_005",
+      "title": "Detect ephemeral environments that are not automatically destroyed",
+      "domain": "CI CD",
+      "technologies": [
+        "CI",
+        "Cloud"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_AI_001",
+      "title": "Detect excessively large LLM context compared with the task",
+      "domain": "AI context",
+      "technologies": [
+        "LLM"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_AI_002",
+      "title": "Detect whole repository or whole file injection when targeted context is sufficient",
+      "domain": "AI context",
+      "technologies": [
+        "LLM",
+        "Code AI"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_AI_003",
+      "title": "Detect duplicated content inside prompts or retrieved context",
+      "domain": "AI context",
+      "technologies": [
+        "LLM",
+        "RAG"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_AI_004",
+      "title": "Detect excessive number of retrieved chunks without relevance filtering",
+      "domain": "RAG",
+      "technologies": [
+        "LLM",
+        "RAG"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_AI_005",
+      "title": "Detect repeated embedding of unchanged documents",
+      "domain": "RAG",
+      "technologies": [
+        "Embeddings",
+        "RAG"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_AI_006",
+      "title": "Detect full reindexing where incremental indexing is possible",
+      "domain": "RAG",
+      "technologies": [
+        "RAG"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_AI_007",
+      "title": "Detect repeated identical LLM calls where a safe cache is possible",
+      "domain": "AI inference",
+      "technologies": [
+        "LLM"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_AI_008",
+      "title": "Detect model size that appears disproportionate to the task",
+      "domain": "AI inference",
+      "technologies": [
+        "LLM"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [
+        "GSF:USE-RIGHT-SIZED-AND-ENERGY-EFFICIENT-AI-MODELS"
+      ],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_AI_009",
+      "title": "Detect excessive max output tokens compared with expected response size",
+      "domain": "AI inference",
+      "technologies": [
+        "LLM"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_AI_010",
+      "title": "Detect unnecessary multi model or multi agent orchestration for simple tasks",
+      "domain": "Agentic AI",
+      "technologies": [
+        "LLM",
+        "Agents"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [
+        "GSF:OPTIMIZE-AGENT-ORCHESTRATION-REDUCE-MODEL-CALLS"
+      ],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_AI_011",
+      "title": "Detect unbounded agent iteration limits",
+      "domain": "Agentic AI",
+      "technologies": [
+        "LLM",
+        "Agents"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_AI_012",
+      "title": "Detect repeated tool calls with identical input",
+      "domain": "Agentic AI",
+      "technologies": [
+        "LLM",
+        "Agents"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_DATA_001",
+      "title": "Detect data retention without an explicit lifecycle",
+      "domain": "Data lifecycle",
+      "technologies": [
+        "Data"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [
+        "GSF:SET-RETENTION-POLICY-ON-STORAGE-RESOURCES"
+      ],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_DATA_002",
+      "title": "Detect redundant copies of large datasets",
+      "domain": "Data storage",
+      "technologies": [
+        "Data"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [
+        "AWS:SUS04_BP05"
+      ],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_DATA_003",
+      "title": "Detect temporary artifacts without cleanup policy",
+      "domain": "Data storage",
+      "technologies": [
+        "Data"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_DATA_004",
+      "title": "Detect full file loading when streaming can meet the use case",
+      "domain": "Data processing",
+      "technologies": [
+        "Java",
+        "Python"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_DATA_005",
+      "title": "Detect verbose formats for high volume analytical datasets where a compact format fits",
+      "domain": "Data storage",
+      "technologies": [
+        "Data"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_ARCH_001",
+      "title": "Detect components with no observable business use or traffic evidence",
+      "domain": "Architecture",
+      "technologies": [
+        "Architecture"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "AWS_SUSTAINABILITY",
+        "RGESN_2024"
+      ],
+      "related_references": [
+        "AWS:SUS03_BP02"
+      ],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_ARCH_002",
+      "title": "Detect synchronous processing of deferrable jobs",
+      "domain": "Architecture",
+      "technologies": [
+        "Architecture"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "AWS_SUSTAINABILITY",
+        "RGESN_2024"
+      ],
+      "related_references": [
+        "GSF:QUEUE-NON-URGENT-REQUESTS"
+      ],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_ARCH_003",
+      "title": "Detect unnecessary service to service network hops",
+      "domain": "Architecture",
+      "technologies": [
+        "Architecture"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "AWS_SUSTAINABILITY",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_ARCH_004",
+      "title": "Detect service mesh usage without capabilities that justify its overhead",
+      "domain": "Architecture",
+      "technologies": [
+        "Kubernetes",
+        "Architecture"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "AWS_SUSTAINABILITY",
+        "RGESN_2024"
+      ],
+      "related_references": [
+        "GSF:EVALUATE-USING-A-SERVICE-MESH"
+      ],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_ARCH_005",
+      "title": "Detect high availability levels beyond the documented business need",
+      "domain": "Architecture",
+      "technologies": [
+        "Architecture"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "AWS_SUSTAINABILITY",
+        "RGESN_2024"
+      ],
+      "related_references": [
+        "GSF:MATCH-SLO"
+      ],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_ARCH_006",
+      "title": "Detect duplicated capabilities that could share an existing service",
+      "domain": "Architecture",
+      "technologies": [
+        "Architecture"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "AWS_SUSTAINABILITY",
+        "RGESN_2024"
+      ],
+      "related_references": [],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_ARCH_007",
+      "title": "Detect data movement between regions without a documented need",
+      "domain": "Architecture",
+      "technologies": [
+        "Cloud"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "AWS_SUSTAINABILITY",
+        "RGESN_2024"
+      ],
+      "related_references": [
+        "AWS:SUS04_BP07"
+      ],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    },
+    {
+      "id": "KEVIN_ARCH_008",
+      "title": "Detect always on infrastructure for sporadic workloads",
+      "domain": "Architecture",
+      "technologies": [
+        "Cloud"
+      ],
+      "status": "DRAFT_TO_VALIDATE",
+      "origin": "KEVIN_RULE_PROPOSAL",
+      "supporting_source_families": [
+        "GSF_PATTERNS",
+        "AWS_SUSTAINABILITY",
+        "RGESN_2024"
+      ],
+      "related_references": [
+        "GSF:SCALE-INFRASTRUCTURE-WITH-USER-LOAD"
+      ],
+      "lifecycle": "Development and Operations",
+      "applicability": "Repository review",
+      "automation_suitability": "LLM_REVIEW_WITH_EVIDENCE",
+      "required_evidence": "Concrete repository or configuration evidence plus contextual limitations",
+      "recommendation": "À évaluer et valider avant activation dans Kevin."
+    }
+  ]
+}

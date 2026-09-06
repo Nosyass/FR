@@ -1,0 +1,591 @@
+{
+  "source": {
+    "id": "AWS_SUSTAINABILITY",
+    "name": "AWS Well-Architected Sustainability Pillar",
+    "organization": "Amazon Web Services",
+    "url": "https://docs.aws.amazon.com/wellarchitected/latest/sustainability-pillar/best-practices-for-sustainability-in-the-cloud.html",
+    "kevin_status": "EXTERNAL_CLOUD_GUIDANCE_TO_VALIDATE"
+  },
+  "rules": [
+    {
+      "rule_id": "SUS01_BP01",
+      "title": "Choose Region based on both business requirements and sustainability goals",
+      "domain": "Region selection",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS01_BP01",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS02_BP01",
+      "title": "Scale workload infrastructure dynamically",
+      "domain": "Alignment to demand",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS02_BP01",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS02_BP02",
+      "title": "Align SLAs with sustainability goals",
+      "domain": "Alignment to demand",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS02_BP02",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS02_BP03",
+      "title": "Stop the creation and maintenance of unused assets",
+      "domain": "Alignment to demand",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS02_BP03",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS02_BP04",
+      "title": "Optimize geographic placement of workloads based on their networking requirements",
+      "domain": "Alignment to demand",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS02_BP04",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS02_BP05",
+      "title": "Optimize team member resources for activities performed",
+      "domain": "Alignment to demand",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS02_BP05",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS02_BP06",
+      "title": "Implement buffering or throttling to flatten the demand curve",
+      "domain": "Alignment to demand",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS02_BP06",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS03_BP01",
+      "title": "Optimize software and architecture for asynchronous and scheduled jobs",
+      "domain": "Software and architecture",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS03_BP01",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS03_BP02",
+      "title": "Remove or refactor workload components with low or no use",
+      "domain": "Software and architecture",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS03_BP02",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS03_BP03",
+      "title": "Optimize areas of code that consume the most time or resources",
+      "domain": "Software and architecture",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS03_BP03",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS03_BP04",
+      "title": "Optimize impact on devices and equipment",
+      "domain": "Software and architecture",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS03_BP04",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS03_BP05",
+      "title": "Use software patterns and architectures that best support data access and storage patterns",
+      "domain": "Software and architecture",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS03_BP05",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS04_BP01",
+      "title": "Implement a data classification policy",
+      "domain": "Data management",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS04_BP01",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS04_BP02",
+      "title": "Use technologies that support data access and storage patterns",
+      "domain": "Data management",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS04_BP02",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS04_BP03",
+      "title": "Use policies to manage the lifecycle of your datasets",
+      "domain": "Data management",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS04_BP03",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS04_BP04",
+      "title": "Use elasticity and automation to expand block storage or file system",
+      "domain": "Data management",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS04_BP04",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS04_BP05",
+      "title": "Remove unneeded or redundant data",
+      "domain": "Data management",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS04_BP05",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS04_BP06",
+      "title": "Use shared file systems or storage to access common data",
+      "domain": "Data management",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS04_BP06",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS04_BP07",
+      "title": "Minimize data movement across networks",
+      "domain": "Data management",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS04_BP07",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS04_BP08",
+      "title": "Back up data only when difficult to recreate",
+      "domain": "Data management",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS04_BP08",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS05_BP01",
+      "title": "Use the minimum amount of hardware to meet your needs",
+      "domain": "Hardware and services",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS05_BP01",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS05_BP02",
+      "title": "Use instance types with the least impact",
+      "domain": "Hardware and services",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS05_BP02",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS05_BP03",
+      "title": "Use managed services",
+      "domain": "Hardware and services",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS05_BP03",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS05_BP04",
+      "title": "Optimize your use of hardware based compute accelerators",
+      "domain": "Hardware and services",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS05_BP04",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS06_BP01",
+      "title": "Communicate and cascade your sustainability goals",
+      "domain": "Process and culture",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS06_BP01",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS06_BP02",
+      "title": "Adopt methods that can rapidly introduce sustainability improvements",
+      "domain": "Process and culture",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS06_BP02",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS06_BP03",
+      "title": "Keep your workload up to date",
+      "domain": "Process and culture",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS06_BP03",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS06_BP04",
+      "title": "Increase utilization of build environments",
+      "domain": "Process and culture",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS06_BP04",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    },
+    {
+      "rule_id": "SUS06_BP05",
+      "title": "Use managed device farms for testing",
+      "domain": "Process and culture",
+      "technologies": [
+        "Cloud",
+        "AWS"
+      ],
+      "origin_mode": "DIRECT_EXTERNAL",
+      "source_ids": [
+        "AWS_SUSTAINABILITY"
+      ],
+      "source_reference": "SUS06_BP05",
+      "lifecycle": "Architecture and Operations",
+      "applicability": "Cloud workload",
+      "automation_suitability": "ARCHITECTURE_OR_RUNTIME_REVIEW",
+      "internal_status": "EXTERNAL_CANDIDATE",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use this AWS best practice when the workload context makes it applicable. For non AWS workloads, treat it as comparative guidance only."
+    }
+  ]
+}

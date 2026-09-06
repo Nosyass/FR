@@ -1,0 +1,312 @@
+{
+  "source": {
+    "id": "W3C_WSG_2026",
+    "name": "Web Sustainability Guidelines",
+    "organization": "W3C Sustainable Web Interest Group",
+    "url": "https://www.w3.org/TR/web-sustainability-guidelines/",
+    "document_status": "DRAFT",
+    "kevin_status": "REFERENCE_ONLY_DRAFT"
+  },
+  "rules": [
+    {
+      "rule_id": "WSG_C01",
+      "title": "Measure web sustainability progress and track improvement over time",
+      "domain": "Measurement",
+      "technologies": [
+        "Web",
+        "Cross technology"
+      ],
+      "origin_mode": "ADAPTED_DRAFT_REFERENCE",
+      "source_ids": [
+        "W3C_WSG_2026"
+      ],
+      "source_reference": "WSG_C01",
+      "lifecycle": "Whole lifecycle",
+      "applicability": "Web service review",
+      "automation_suitability": "HUMAN_OR_LLM_REVIEW",
+      "internal_status": "REFERENCE_ONLY_DRAFT",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use only as supplementary guidance because the W3C document is a draft Group Note, not an endorsed Recommendation."
+    },
+    {
+      "rule_id": "WSG_C02",
+      "title": "Reduce unnecessary page weight and transferred resources",
+      "domain": "Web performance",
+      "technologies": [
+        "Web",
+        "Cross technology"
+      ],
+      "origin_mode": "ADAPTED_DRAFT_REFERENCE",
+      "source_ids": [
+        "W3C_WSG_2026"
+      ],
+      "source_reference": "WSG_C02",
+      "lifecycle": "Whole lifecycle",
+      "applicability": "Web service review",
+      "automation_suitability": "HUMAN_OR_LLM_REVIEW",
+      "internal_status": "REFERENCE_ONLY_DRAFT",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use only as supplementary guidance because the W3C document is a draft Group Note, not an endorsed Recommendation."
+    },
+    {
+      "rule_id": "WSG_C03",
+      "title": "Design for efficient user journeys that avoid unnecessary interactions",
+      "domain": "UX",
+      "technologies": [
+        "Web",
+        "Cross technology"
+      ],
+      "origin_mode": "ADAPTED_DRAFT_REFERENCE",
+      "source_ids": [
+        "W3C_WSG_2026"
+      ],
+      "source_reference": "WSG_C03",
+      "lifecycle": "Whole lifecycle",
+      "applicability": "Web service review",
+      "automation_suitability": "HUMAN_OR_LLM_REVIEW",
+      "internal_status": "REFERENCE_ONLY_DRAFT",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use only as supplementary guidance because the W3C document is a draft Group Note, not an endorsed Recommendation."
+    },
+    {
+      "rule_id": "WSG_C04",
+      "title": "Favor performant and durable web implementations",
+      "domain": "Web performance",
+      "technologies": [
+        "Web",
+        "Cross technology"
+      ],
+      "origin_mode": "ADAPTED_DRAFT_REFERENCE",
+      "source_ids": [
+        "W3C_WSG_2026"
+      ],
+      "source_reference": "WSG_C04",
+      "lifecycle": "Whole lifecycle",
+      "applicability": "Web service review",
+      "automation_suitability": "HUMAN_OR_LLM_REVIEW",
+      "internal_status": "REFERENCE_ONLY_DRAFT",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use only as supplementary guidance because the W3C document is a draft Group Note, not an endorsed Recommendation."
+    },
+    {
+      "rule_id": "WSG_C05",
+      "title": "Avoid unnecessary tracking and data collection",
+      "domain": "Data",
+      "technologies": [
+        "Web",
+        "Cross technology"
+      ],
+      "origin_mode": "ADAPTED_DRAFT_REFERENCE",
+      "source_ids": [
+        "W3C_WSG_2026"
+      ],
+      "source_reference": "WSG_C05",
+      "lifecycle": "Whole lifecycle",
+      "applicability": "Web service review",
+      "automation_suitability": "HUMAN_OR_LLM_REVIEW",
+      "internal_status": "REFERENCE_ONLY_DRAFT",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use only as supplementary guidance because the W3C document is a draft Group Note, not an endorsed Recommendation."
+    },
+    {
+      "rule_id": "WSG_C06",
+      "title": "Design for accessibility and longevity rather than forced device upgrades",
+      "domain": "Device lifetime",
+      "technologies": [
+        "Web",
+        "Cross technology"
+      ],
+      "origin_mode": "ADAPTED_DRAFT_REFERENCE",
+      "source_ids": [
+        "W3C_WSG_2026"
+      ],
+      "source_reference": "WSG_C06",
+      "lifecycle": "Whole lifecycle",
+      "applicability": "Web service review",
+      "automation_suitability": "HUMAN_OR_LLM_REVIEW",
+      "internal_status": "REFERENCE_ONLY_DRAFT",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use only as supplementary guidance because the W3C document is a draft Group Note, not an endorsed Recommendation."
+    },
+    {
+      "rule_id": "WSG_C07",
+      "title": "Reduce unnecessary use of resource intensive emerging technologies",
+      "domain": "AI and emerging tech",
+      "technologies": [
+        "Web",
+        "Cross technology"
+      ],
+      "origin_mode": "ADAPTED_DRAFT_REFERENCE",
+      "source_ids": [
+        "W3C_WSG_2026"
+      ],
+      "source_reference": "WSG_C07",
+      "lifecycle": "Whole lifecycle",
+      "applicability": "Web service review",
+      "automation_suitability": "HUMAN_OR_LLM_REVIEW",
+      "internal_status": "REFERENCE_ONLY_DRAFT",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use only as supplementary guidance because the W3C document is a draft Group Note, not an endorsed Recommendation."
+    },
+    {
+      "rule_id": "WSG_C08",
+      "title": "Prefer resilient solutions that degrade gracefully",
+      "domain": "Resilience",
+      "technologies": [
+        "Web",
+        "Cross technology"
+      ],
+      "origin_mode": "ADAPTED_DRAFT_REFERENCE",
+      "source_ids": [
+        "W3C_WSG_2026"
+      ],
+      "source_reference": "WSG_C08",
+      "lifecycle": "Whole lifecycle",
+      "applicability": "Web service review",
+      "automation_suitability": "HUMAN_OR_LLM_REVIEW",
+      "internal_status": "REFERENCE_ONLY_DRAFT",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use only as supplementary guidance because the W3C document is a draft Group Note, not an endorsed Recommendation."
+    },
+    {
+      "rule_id": "WSG_C09",
+      "title": "Document sustainability tradeoffs and decision rationale",
+      "domain": "Governance",
+      "technologies": [
+        "Web",
+        "Cross technology"
+      ],
+      "origin_mode": "ADAPTED_DRAFT_REFERENCE",
+      "source_ids": [
+        "W3C_WSG_2026"
+      ],
+      "source_reference": "WSG_C09",
+      "lifecycle": "Whole lifecycle",
+      "applicability": "Web service review",
+      "automation_suitability": "HUMAN_OR_LLM_REVIEW",
+      "internal_status": "REFERENCE_ONLY_DRAFT",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use only as supplementary guidance because the W3C document is a draft Group Note, not an endorsed Recommendation."
+    },
+    {
+      "rule_id": "WSG_C10",
+      "title": "Use efficient media and content delivery strategies",
+      "domain": "Web media",
+      "technologies": [
+        "Web",
+        "Cross technology"
+      ],
+      "origin_mode": "ADAPTED_DRAFT_REFERENCE",
+      "source_ids": [
+        "W3C_WSG_2026"
+      ],
+      "source_reference": "WSG_C10",
+      "lifecycle": "Whole lifecycle",
+      "applicability": "Web service review",
+      "automation_suitability": "HUMAN_OR_LLM_REVIEW",
+      "internal_status": "REFERENCE_ONLY_DRAFT",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use only as supplementary guidance because the W3C document is a draft Group Note, not an endorsed Recommendation."
+    },
+    {
+      "rule_id": "WSG_C11",
+      "title": "Reduce repeated third party requests where possible",
+      "domain": "Network",
+      "technologies": [
+        "Web",
+        "Cross technology"
+      ],
+      "origin_mode": "ADAPTED_DRAFT_REFERENCE",
+      "source_ids": [
+        "W3C_WSG_2026"
+      ],
+      "source_reference": "WSG_C11",
+      "lifecycle": "Whole lifecycle",
+      "applicability": "Web service review",
+      "automation_suitability": "HUMAN_OR_LLM_REVIEW",
+      "internal_status": "REFERENCE_ONLY_DRAFT",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use only as supplementary guidance because the W3C document is a draft Group Note, not an endorsed Recommendation."
+    },
+    {
+      "rule_id": "WSG_C12",
+      "title": "Prioritize resource efficiency without compromising privacy or security",
+      "domain": "Security",
+      "technologies": [
+        "Web",
+        "Cross technology"
+      ],
+      "origin_mode": "ADAPTED_DRAFT_REFERENCE",
+      "source_ids": [
+        "W3C_WSG_2026"
+      ],
+      "source_reference": "WSG_C12",
+      "lifecycle": "Whole lifecycle",
+      "applicability": "Web service review",
+      "automation_suitability": "HUMAN_OR_LLM_REVIEW",
+      "internal_status": "REFERENCE_ONLY_DRAFT",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use only as supplementary guidance because the W3C document is a draft Group Note, not an endorsed Recommendation."
+    },
+    {
+      "rule_id": "WSG_C13",
+      "title": "Consider people, planet and organizational sustainability together",
+      "domain": "Governance",
+      "technologies": [
+        "Web",
+        "Cross technology"
+      ],
+      "origin_mode": "ADAPTED_DRAFT_REFERENCE",
+      "source_ids": [
+        "W3C_WSG_2026"
+      ],
+      "source_reference": "WSG_C13",
+      "lifecycle": "Whole lifecycle",
+      "applicability": "Web service review",
+      "automation_suitability": "HUMAN_OR_LLM_REVIEW",
+      "internal_status": "REFERENCE_ONLY_DRAFT",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use only as supplementary guidance because the W3C document is a draft Group Note, not an endorsed Recommendation."
+    },
+    {
+      "rule_id": "WSG_C14",
+      "title": "Use measurable success criteria for sustainability improvements",
+      "domain": "Measurement",
+      "technologies": [
+        "Web",
+        "Cross technology"
+      ],
+      "origin_mode": "ADAPTED_DRAFT_REFERENCE",
+      "source_ids": [
+        "W3C_WSG_2026"
+      ],
+      "source_reference": "WSG_C14",
+      "lifecycle": "Whole lifecycle",
+      "applicability": "Web service review",
+      "automation_suitability": "HUMAN_OR_LLM_REVIEW",
+      "internal_status": "REFERENCE_ONLY_DRAFT",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use only as supplementary guidance because the W3C document is a draft Group Note, not an endorsed Recommendation."
+    },
+    {
+      "rule_id": "WSG_C15",
+      "title": "Treat AI and emerging web technology consumption as an explicit design concern",
+      "domain": "AI",
+      "technologies": [
+        "Web",
+        "Cross technology"
+      ],
+      "origin_mode": "ADAPTED_DRAFT_REFERENCE",
+      "source_ids": [
+        "W3C_WSG_2026"
+      ],
+      "source_reference": "WSG_C15",
+      "lifecycle": "Whole lifecycle",
+      "applicability": "Web service review",
+      "automation_suitability": "HUMAN_OR_LLM_REVIEW",
+      "internal_status": "REFERENCE_ONLY_DRAFT",
+      "required_evidence": "Repository evidence",
+      "recommendation": "Use only as supplementary guidance because the W3C document is a draft Group Note, not an endorsed Recommendation."
+    }
+  ]
+}

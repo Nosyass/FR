@@ -1,0 +1,1210 @@
+{
+  "source": {
+    "id": "GSF_PATTERNS",
+    "name": "Green Software Patterns",
+    "organization": "Green Software Foundation",
+    "commit": "24095741d9df0d74a2c3cbab469d9ddbe6cdb55a",
+    "url": "https://patterns.greensoftware.foundation/",
+    "methodology": "https://greensoftware.foundation/standards/sci/",
+    "kevin_status": "EXTERNAL_PATTERN_TO_VALIDATE"
+  },
+  "rules": [
+    {
+      "id": "GSF-CHOOSE-REGION-CLOSEST-TO-USERS",
+      "title": "Choose the region that is closest to users",
+      "lifecycle": "architecture",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "cloud",
+      "tags": [
+        "networking",
+        "size:small",
+        "persona:devops-engineer",
+        "persona:infrastructure-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/architecture/choose-region-closest-to-users/"
+    },
+    {
+      "id": "GSF-CONTAINERIZE-YOUR-WORKLOAD-WHERE-APPLICABLE",
+      "title": "Containerize your workloads",
+      "lifecycle": "architecture",
+      "version": "1.0",
+      "published_date": "2024-03-14",
+      "category": "cloud",
+      "tags": [
+        "persona:devops-engineer",
+        "persona:solution-architect",
+        "cloud",
+        "compute",
+        "kubernetes",
+        "role:cloud-engineer",
+        "size:medium"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/architecture/containerize-your-workload-where-applicable/"
+    },
+    {
+      "id": "GSF-EFFICIENT-HARDWARE-AI-WORKLOADS",
+      "title": "Select efficient accelerators and instance types for AI workloads",
+      "lifecycle": "architecture",
+      "version": "1.0",
+      "published_date": "category: Architecture",
+      "category": "Architecture",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "compute",
+        "cloud",
+        "persona:infrastructure-engineer",
+        "persona:devops-engineer",
+        "persona:ai-ml-engineer",
+        "persona:solution-architect",
+        "size:medium"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/architecture/efficient-hardware-ai-workloads/"
+    },
+    {
+      "id": "GSF-EVALUATE-USING-A-SERVICE-MESH",
+      "title": "Use a service mesh only if needed",
+      "lifecycle": "architecture",
+      "version": "1.0",
+      "published_date": "2024-03-14",
+      "category": "cloud",
+      "tags": [
+        "persona:solution-architect",
+        "persona:devops-engineer",
+        "cloud",
+        "security",
+        "network",
+        "kubernetes",
+        "role:cloud-engineer",
+        "size:medium"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/architecture/evaluate-using-a-service-mesh/"
+    },
+    {
+      "id": "GSF-IMPLEMENT-STATELESS-DESIGN",
+      "title": "Implement stateless design",
+      "lifecycle": "architecture",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "cloud",
+      "tags": [
+        "persona:solution-architect",
+        "persona:devops-engineer",
+        "cloud",
+        "compute",
+        "kubernetes",
+        "role:software-engineer",
+        "size:medium"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/architecture/implement-stateless-design/"
+    },
+    {
+      "id": "GSF-ON-DEMAND-EXECUTION-AI-AGENT-WORKLOADS",
+      "title": "Use on-demand execution for AI and agent workloads",
+      "lifecycle": "architecture",
+      "version": "1.0",
+      "published_date": "category: Architecture",
+      "category": "Architecture",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "compute",
+        "serverless",
+        "cloud",
+        "persona:devops-engineer",
+        "persona:software-engineer",
+        "persona:ai-ml-engineer",
+        "size:medium"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/architecture/on-demand-execution-ai-agent-workloads/"
+    },
+    {
+      "id": "GSF-QUEUE-NON-URGENT-REQUESTS",
+      "title": "Queue non-urgent processing requests",
+      "lifecycle": "architecture",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "cloud",
+      "tags": [
+        "cloud",
+        "size:small",
+        "persona:devops-engineer",
+        "persona:solution-architect"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/architecture/queue-non-urgent-requests/"
+    },
+    {
+      "id": "GSF-REDUCE-NETWORK-TRAVERSAL-BETWEEN-VMS",
+      "title": "Reduce network traversal between VMs",
+      "lifecycle": "architecture",
+      "version": "1.0",
+      "published_date": "2024-07-30",
+      "category": "cloud",
+      "tags": [
+        "persona:infrastructure-engineer",
+        "persona:devops-engineer",
+        "persona:solution-architect",
+        "cloud",
+        "network",
+        "compute",
+        "kubernetes",
+        "role:cloud-engineer",
+        "size:medium"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/architecture/reduce-network-traversal-between-VMs/"
+    },
+    {
+      "id": "GSF-RUN-AI-MODELS-EDGE",
+      "title": "Run AI models at the edge",
+      "lifecycle": "architecture",
+      "version": "1.0",
+      "published_date": "category: Architecture",
+      "category": "Architecture",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "compute",
+        "networking",
+        "deployment",
+        "persona:infrastructure-engineer",
+        "persona:solution-architect",
+        "persona:ai-ml-engineer",
+        "size:large"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/architecture/run-ai-models-edge/"
+    },
+    {
+      "id": "GSF-SCALE-LOGICAL-COMPONENTS-INDEPENDENTLY",
+      "title": "Scale logical components independently",
+      "lifecycle": "architecture",
+      "version": "1.0",
+      "published_date": "2024-03-14",
+      "category": "cloud",
+      "tags": [
+        "persona:solution-architect",
+        "persona:devops-engineer",
+        "compute",
+        "cloud",
+        "kubernetes",
+        "role:software-engineer",
+        "role:cloud-engineer",
+        "size:medium"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/architecture/scale-logical-components-independently/"
+    },
+    {
+      "id": "GSF-SERVERLESS-MODEL-DEVELOPMENT",
+      "title": "Adopt serverless architecture for AI/ML workload processes",
+      "lifecycle": "architecture",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "serverless",
+        "size:small",
+        "persona:ai-ml-engineer",
+        "persona:solution-architect",
+        "persona:devops-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/architecture/serverless-model-development/"
+    },
+    {
+      "id": "GSF-ENERGY-EFFICENT-FRAMEWORK",
+      "title": "Select a more energy efficient AI/ML framework",
+      "lifecycle": "architecture",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "size:small",
+        "persona:ai-ml-engineer",
+        "persona:software-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/architecture/energy-efficent-framework/"
+    },
+    {
+      "id": "GSF-ENERGY-EFFICENT-MODELS",
+      "title": "Use energy efficient AI/ML models",
+      "lifecycle": "architecture",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "ai",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "size:small",
+        "persona:ai-ml-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/architecture/energy-efficent-models/"
+    },
+    {
+      "id": "GSF-EVALUATE-OTHER-CPU-ARCHITECTURES",
+      "title": "Evaluate other CPU architectures",
+      "lifecycle": "architecture",
+      "version": "1.0",
+      "published_date": "2023-10-25",
+      "category": "cloud",
+      "tags": [
+        "cloud",
+        "size:small",
+        "persona:infrastructure-engineer",
+        "persona:devops-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/architecture/evaluate-other-cpu-architectures/"
+    },
+    {
+      "id": "GSF-USE-ENERGY-EFFICIENT-HARDWARE",
+      "title": "Use cloud native processor VMs",
+      "lifecycle": "architecture",
+      "version": "1.0",
+      "published_date": "2024-03-14",
+      "category": "cloud",
+      "tags": [
+        "persona:infrastructure-engineer",
+        "persona:devops-engineer",
+        "cloud",
+        "compute",
+        "kubernetes",
+        "role:software-engineer",
+        "role:cloud-engineer",
+        "size:medium"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/architecture/use-energy-efficient-hardware/"
+    },
+    {
+      "id": "GSF-USE-SERVERLESS",
+      "title": "Use serverless cloud services",
+      "lifecycle": "architecture",
+      "version": "1.0",
+      "published_date": "2023-01-17",
+      "category": "cloud",
+      "tags": [
+        "cloud",
+        "size:small",
+        "serverless",
+        "persona:infrastructure-engineer",
+        "persona:devops-engineer",
+        "persona:solution-architect"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/architecture/use-serverless/"
+    },
+    {
+      "id": "GSF-SYSTEM-FIRST-TYPOGRAPHY-USER-NEEDS",
+      "title": "Prioritise system-first typography selection based on user needs",
+      "lifecycle": "design",
+      "version": "1.0",
+      "published_date": "2026-06-22",
+      "category": "Design",
+      "tags": [
+        "persona:front-end-engineer",
+        "persona:ux-designer",
+        "typography",
+        "accessibility",
+        "web-performance"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/design/system-first-typography-user-needs/"
+    },
+    {
+      "id": "GSF-AVOID-TRACKING-UNNECESSARY-DATA",
+      "title": "Avoid tracking unnecessary data",
+      "lifecycle": "development",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "web",
+      "tags": [
+        "storage",
+        "size:small",
+        "persona:front-end-engineer",
+        "persona:ux-designer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "POTENTIALLY_AUTOMATABLE",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/development/avoid-tracking-unnecessary-data/"
+    },
+    {
+      "id": "GSF-CACHE-STATIC-DATA",
+      "title": "Cache static data",
+      "lifecycle": "development",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "cloud",
+      "tags": [
+        "networking",
+        "size:small",
+        "persona:software-engineer",
+        "persona:front-end-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "POTENTIALLY_AUTOMATABLE",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/development/cache-static-data/"
+    },
+    {
+      "id": "GSF-COMPRESS-STORED-DATA",
+      "title": "Compress stored data",
+      "lifecycle": "development",
+      "version": "1.0",
+      "published_date": "2024-03-14",
+      "category": "cloud",
+      "tags": [
+        "cloud",
+        "size:medium",
+        "persona:devops-engineer",
+        "persona:data-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "POTENTIALLY_AUTOMATABLE",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/development/compress-stored-data/"
+    },
+    {
+      "id": "GSF-COMPRESS-TRANSMITTED-DATA",
+      "title": "Compress transmitted data",
+      "lifecycle": "development",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "cloud",
+      "tags": [
+        "networking",
+        "size:small",
+        "persona:devops-engineer",
+        "persona:front-end-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "POTENTIALLY_AUTOMATABLE",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/development/compress-transmitted-data/"
+    },
+    {
+      "id": "GSF-OPTIMIZE-DATA-STORAGE-AI-TRAINING",
+      "title": "Optimize data storage formats for AI training and inference",
+      "lifecycle": "development",
+      "version": "1.0",
+      "published_date": "category: Development",
+      "category": "Development",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "storage",
+        "persona:data-engineer",
+        "persona:ai-ml-engineer",
+        "size:medium"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "POTENTIALLY_AUTOMATABLE",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/development/optimize-data-storage-ai-training/"
+    },
+    {
+      "id": "GSF-REDUCE-TRANSMITTED-DATA",
+      "title": "Reduce transmitted data",
+      "lifecycle": "development",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "cloud",
+      "tags": [
+        "networking",
+        "size:small",
+        "persona:software-engineer",
+        "persona:front-end-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "POTENTIALLY_AUTOMATABLE",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/development/reduce-transmitted-data/"
+    },
+    {
+      "id": "GSF-EVALUATE-WHETHER-TO-USE-TLS-TERMINATION",
+      "title": "Terminate TLS at border gateway",
+      "lifecycle": "development",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "cloud",
+      "tags": [
+        "persona:devops-engineer",
+        "persona:security-engineer",
+        "cloud",
+        "security",
+        "compute",
+        "kubernetes",
+        "role:software-engineer",
+        "size:medium"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "POTENTIALLY_AUTOMATABLE",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/development/evaluate-whether-to-use-TLS-termination/"
+    },
+    {
+      "id": "GSF-DEFER-OFFSCREEN-IMAGES",
+      "title": "Defer offscreen images",
+      "lifecycle": "development",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "web",
+      "tags": [
+        "web",
+        "size:small",
+        "persona:front-end-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "POTENTIALLY_AUTOMATABLE",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/development/defer-offscreen-images/"
+    },
+    {
+      "id": "GSF-DEPRECATE-GIFS",
+      "title": "Deprecate GIFs for animated content",
+      "lifecycle": "development",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "web",
+      "tags": [
+        "size:small",
+        "web",
+        "persona:front-end-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "POTENTIALLY_AUTOMATABLE",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/development/deprecate-gifs/"
+    },
+    {
+      "id": "GSF-PROPERLY-SIZED-IMAGES",
+      "title": "Optimize image size",
+      "lifecycle": "development",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "web",
+      "tags": [
+        "web",
+        "size:medium",
+        "persona:front-end-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "POTENTIALLY_AUTOMATABLE",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/development/properly-sized-images/"
+    },
+    {
+      "id": "GSF-REMOVE-UNUSED-CSS",
+      "title": "Remove unused CSS definitions",
+      "lifecycle": "development",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "web",
+      "tags": [
+        "size:small",
+        "web",
+        "persona:front-end-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "POTENTIALLY_AUTOMATABLE",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/development/remove-unused-css/"
+    },
+    {
+      "id": "GSF-SERVE-IMAGES-IN-MODERN-FORMATS",
+      "title": "Serve images in modern formats",
+      "lifecycle": "development",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "web",
+      "tags": [
+        "web",
+        "size:small",
+        "persona:front-end-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "POTENTIALLY_AUTOMATABLE",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/development/serve-images-in-modern-formats/"
+    },
+    {
+      "id": "GSF-USE-COMPILED-LANGUAGES",
+      "title": "Use compiled languages",
+      "lifecycle": "development",
+      "version": "1.0",
+      "published_date": "2024-07-30",
+      "category": "cloud",
+      "tags": [
+        "cloud",
+        "size:small",
+        "programming-language",
+        "persona:software-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "POTENTIALLY_AUTOMATABLE",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/development/use-compiled-languages/"
+    },
+    {
+      "id": "GSF-MINIMIZING-DEPLOYED-ENVIRONMENTS",
+      "title": "Minimize the total number of deployed environments",
+      "lifecycle": "development",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "cloud",
+      "tags": [
+        "cloud",
+        "deployment",
+        "persona:infrastructure-engineer",
+        "persona:devops-engineer",
+        "persona:solution-architect"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "POTENTIALLY_AUTOMATABLE",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/development/minimizing-deployed-environments/"
+    },
+    {
+      "id": "GSF-OPTIMIZE-AGENT-ORCHESTRATION-REDUCE-MODEL-CALLS",
+      "title": "Optimize agent orchestration to reduce unnecessary model calls",
+      "lifecycle": "development",
+      "version": "1.0",
+      "published_date": "category: Development",
+      "category": "Development",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "compute",
+        "persona:ai-ml-engineer",
+        "persona:software-engineer",
+        "size:medium"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "POTENTIALLY_AUTOMATABLE",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/development/optimize-agent-orchestration-reduce-model-calls/"
+    },
+    {
+      "id": "GSF-PRE-TRAINED-TRANSFER-LEARNING",
+      "title": "Leverage pre-trained models and transfer learning",
+      "lifecycle": "development",
+      "version": "1.0",
+      "published_date": "category: Development",
+      "category": "Development",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "compute",
+        "persona:ai-ml-engineer",
+        "persona:data-engineer",
+        "size:medium"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "POTENTIALLY_AUTOMATABLE",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/development/pre-trained-transfer-learning/"
+    },
+    {
+      "id": "GSF-RIGHT-SIZED-ENERGY-EFFICIENT-AI-MODELS",
+      "title": "Use right-sized and energy-efficient AI models",
+      "lifecycle": "development",
+      "version": "1.0",
+      "published_date": "category: Development",
+      "category": "Development",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "compute",
+        "persona:ai-ml-engineer",
+        "persona:software-engineer",
+        "persona:solution-architect",
+        "size:medium"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "POTENTIALLY_AUTOMATABLE",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/development/right-sized-energy-efficient-ai-models/"
+    },
+    {
+      "id": "GSF-SELECT-EFFICIENT-ML-FRAMEWORKS-INFERENCE-RUNTIMES",
+      "title": "Select efficient ML frameworks and inference runtimes",
+      "lifecycle": "development",
+      "version": "1.0",
+      "published_date": "category: Development",
+      "category": "Development",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "compute",
+        "persona:ai-ml-engineer",
+        "size:medium"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "POTENTIALLY_AUTOMATABLE",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/development/select-efficient-ml-frameworks-inference-runtimes/"
+    },
+    {
+      "id": "GSF-USE-ASYNC-INSTEAD-OF-SYNC",
+      "title": "Use Asynchronous network calls instead of synchronous",
+      "lifecycle": "development",
+      "version": "1.0",
+      "published_date": "2023-10-25",
+      "category": "cloud",
+      "tags": [
+        "cloud",
+        "size:medium",
+        "persona:software-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "POTENTIALLY_AUTOMATABLE",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/development/use-async-instead-of-sync/"
+    },
+    {
+      "id": "GSF-AVOID-CHAINING-CRITICAL-REQUESTS",
+      "title": "Avoid chaining critical requests",
+      "lifecycle": "development",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "web",
+      "tags": [
+        "web",
+        "size:medium",
+        "persona:front-end-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "POTENTIALLY_AUTOMATABLE",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/development/avoid-chaining-critical-requests/"
+    },
+    {
+      "id": "GSF-AVOID-EXCESSIVE-DOM-SIZE",
+      "title": "Avoid an excessive DOM size",
+      "lifecycle": "development",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "web",
+      "tags": [
+        "size:medium",
+        "web",
+        "persona:front-end-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "POTENTIALLY_AUTOMATABLE",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/development/avoid-excessive-dom-size/"
+    },
+    {
+      "id": "GSF-ENABLE-TEXT-COMPRESSION",
+      "title": "Enable text compression",
+      "lifecycle": "development",
+      "version": "1.0",
+      "published_date": "2023-10-25",
+      "category": "web",
+      "tags": [
+        "web",
+        "size:small",
+        "persona:devops-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "POTENTIALLY_AUTOMATABLE",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/development/enable-text-compression/"
+    },
+    {
+      "id": "GSF-KEEP-REQUEST-COUNTS-LOW",
+      "title": "Keep request counts low",
+      "lifecycle": "development",
+      "version": "1.0",
+      "published_date": "2023-10-25",
+      "category": "web",
+      "tags": [
+        "size:medium",
+        "web",
+        "persona:front-end-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "POTENTIALLY_AUTOMATABLE",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/development/keep-request-counts-low/"
+    },
+    {
+      "id": "GSF-MINIFY-WEB-ASSETS",
+      "title": "Minify web assets",
+      "lifecycle": "development",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "web",
+      "tags": [
+        "web",
+        "size:small",
+        "persona:front-end-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "POTENTIALLY_AUTOMATABLE",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/development/minify-web-assets/"
+    },
+    {
+      "id": "GSF-MINIMIZE-MAIN-THREAD-WORK",
+      "title": "Minimize main thread work",
+      "lifecycle": "development",
+      "version": "1.0",
+      "published_date": "2022-11-22",
+      "category": "web",
+      "tags": [
+        "web",
+        "compute",
+        "size:small",
+        "persona:front-end-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "POTENTIALLY_AUTOMATABLE",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/development/minimize-main-thread-work/"
+    },
+    {
+      "id": "GSF-USE-SERVER-SIDE-RENDERING",
+      "title": "Use server-side rendering for high-traffic pages",
+      "lifecycle": "development",
+      "version": "1.0",
+      "published_date": "2023-10-25",
+      "category": "web",
+      "tags": [
+        "web",
+        "persona:front-end-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "POTENTIALLY_AUTOMATABLE",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/development/use-server-side-rendering/"
+    },
+    {
+      "id": "GSF-MATCH-UTILIZATION-REQUIREMENTS-OF-VM",
+      "title": "Match utilization requirements of virtual machines (VMs)",
+      "lifecycle": "operations",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "cloud",
+      "tags": [
+        "compute",
+        "size:small",
+        "persona:infrastructure-engineer",
+        "persona:devops-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/operations/match-utilization-requirements-of-vm/"
+    },
+    {
+      "id": "GSF-MATCH-UTILIZATION-REQUIREMENTS-WITH-PRE-CONFIGURED-SERVER",
+      "title": "Match utilization requirements with pre-configured servers",
+      "lifecycle": "operations",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "cloud",
+      "tags": [
+        "compute",
+        "size:small",
+        "persona:infrastructure-engineer",
+        "persona:devops-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/operations/match-utilization-requirements-with-pre-configured-server/"
+    },
+    {
+      "id": "GSF-OPTIMIZE-AVG-CPU-UTILIZATION",
+      "title": "Optimize average CPU utilization",
+      "lifecycle": "operations",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "cloud",
+      "tags": [
+        "compute",
+        "monitoring",
+        "size:medium",
+        "persona:devops-engineer",
+        "persona:infrastructure-engineer",
+        "persona:solution-architect"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/operations/optimize-avg-cpu-utilization/"
+    },
+    {
+      "id": "GSF-OPTIMIZE-PEAK-CPU-UTILIZATION",
+      "title": "Optimize peak CPU utilization",
+      "lifecycle": "operations",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "cloud",
+      "tags": [
+        "compute",
+        "monitoring",
+        "size:medium",
+        "persona:devops-engineer",
+        "persona:solution-architect"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/operations/optimize-peak-cpu-utilization/"
+    },
+    {
+      "id": "GSF-SCALE-DOWN-KUBERNETES-WORKLOADS",
+      "title": "Scale down kubernetes applications when not in use",
+      "lifecycle": "operations",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "cloud",
+      "tags": [
+        "kubernetes",
+        "size:small",
+        "persona:devops-engineer",
+        "persona:infrastructure-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/operations/scale-down-kubernetes-workloads/"
+    },
+    {
+      "id": "GSF-SCALE-DOWN-UNUSED-APPLICATIONS",
+      "title": "Scale down applications when not in use",
+      "lifecycle": "operations",
+      "version": "1.0",
+      "published_date": "2023-12-14",
+      "category": "cloud",
+      "tags": [
+        "cloud",
+        "size:small",
+        "persona:devops-engineer",
+        "persona:infrastructure-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/operations/scale-down-unused-applications/"
+    },
+    {
+      "id": "GSF-SCALE-INFRASTRUCTURE-WITH-USER-LOAD",
+      "title": "Scale infrastructure with user load",
+      "lifecycle": "operations",
+      "version": "1.0",
+      "published_date": "2023-12-14",
+      "category": "cloud",
+      "tags": [
+        "compute",
+        "cloud",
+        "size:medium",
+        "persona:devops-engineer",
+        "persona:solution-architect"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/operations/scale-infrastructure-with-user-load/"
+    },
+    {
+      "id": "GSF-SCALE-KUBERNETES-WORKLOADS-BASED-ON-EVENTS",
+      "title": "Scale Kubernetes workloads based on relevant demand metrics",
+      "lifecycle": "operations",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "cloud",
+      "tags": [
+        "persona:solution-architect",
+        "persona:devops-engineer",
+        "cloud",
+        "serverless",
+        "kubernetes",
+        "role:software-engineer",
+        "role:cloud-engineer",
+        "size:medium"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/operations/scale-kubernetes-workloads-based-on-events/"
+    },
+    {
+      "id": "GSF-USE-CIRCUIT-BREAKER",
+      "title": "Use circuit breaker patterns",
+      "lifecycle": "operations",
+      "version": "1.0",
+      "published_date": "2023-09-28",
+      "category": "cloud",
+      "tags": [
+        "compute",
+        "size:medium",
+        "persona:software-engineer",
+        "persona:devops-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/operations/use-circuit-breaker/"
+    },
+    {
+      "id": "GSF-CARBON-AWARE-AI-SCHEDULING",
+      "title": "Use carbon-aware scheduling and region selection for AI workloads",
+      "lifecycle": "operations",
+      "version": "1.0",
+      "published_date": "category: Operations",
+      "category": "Operations",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "cloud",
+        "compute",
+        "persona:devops-engineer",
+        "persona:infrastructure-engineer",
+        "persona:solution-architect",
+        "persona:ai-ml-engineer",
+        "size:large"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/operations/carbon-aware-ai-scheduling/"
+    },
+    {
+      "id": "GSF-OPTIMIZE-EDGE-AI-POWER-PERFORMANCE",
+      "title": "Optimize power consumption for edge AI inference",
+      "lifecycle": "operations",
+      "version": "1.0",
+      "published_date": "20206-08-14",
+      "category": "Operations",
+      "tags": [
+        "ai",
+        "machine-learning",
+        "edge-computing",
+        "energy-efficiency",
+        "inference",
+        "size:medium",
+        "persona:ai-ml-engineer",
+        "persona:infrastructure-engineer",
+        "persona:devops-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/operations/optimize-edge-ai-power-performance/"
+    },
+    {
+      "id": "GSF-DELETE-UNUSED-STORAGE-RESOURCES",
+      "title": "Delete unused storage resources",
+      "lifecycle": "operations",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "cloud",
+      "tags": [
+        "storage",
+        "size:small",
+        "persona:devops-engineer",
+        "persona:software-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/operations/delete-unused-storage-resources/"
+    },
+    {
+      "id": "GSF-OPTIMISE-STORAGE-RESOURCE-UTILISATION",
+      "title": "Optimise storage utilization",
+      "lifecycle": "operations",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "cloud",
+      "tags": [
+        "storage",
+        "size:small",
+        "persona:data-engineer",
+        "persona:devops-engineer",
+        "persona:solution-architect"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/operations/optimise-storage-resource-utilisation/"
+    },
+    {
+      "id": "GSF-REMOVE-UNUSED-ASSETS",
+      "title": "Remove unused assets",
+      "lifecycle": "operations",
+      "version": "1.0",
+      "published_date": "2022-11-22",
+      "category": "cloud",
+      "tags": [
+        "cloud",
+        "size:small",
+        "persona:devops-engineer",
+        "persona:software-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/operations/remove-unused-assets/"
+    },
+    {
+      "id": "GSF-SET-RETENTION-POLICY-ON-STORAGE-RESOURCES",
+      "title": "Set storage retention policies",
+      "lifecycle": "operations",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "cloud",
+      "tags": [
+        "storage",
+        "size:small",
+        "persona:data-engineer",
+        "persona:devops-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/operations/set-retention-policy-on-storage-resources/"
+    },
+    {
+      "id": "GSF-SCAN-FOR-VULNERABILITIES",
+      "title": "Scan for vulnerabilities",
+      "lifecycle": "operations",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "cloud",
+      "tags": [
+        "cloud",
+        "security",
+        "compute",
+        "kubernetes",
+        "role:cloud-engineer",
+        "size:medium"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/operations/scan-for-vulnerabilities/"
+    },
+    {
+      "id": "GSF-TIME-SHIFT-KUBERNETES-CRON-JOBS",
+      "title": "Time-shift Kubernetes cron jobs",
+      "lifecycle": "operations",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "cloud",
+      "tags": [
+        "kubernetes",
+        "size:medium",
+        "persona:devops-engineer",
+        "persona:infrastructure-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/operations/time-shift-kubernetes-cron-jobs/"
+    },
+    {
+      "id": "GSF-USE-CLOUD-NATIVE-NETWORK-SECURITY-TOOLS-AND-CONTROLS",
+      "title": "Use cloud native network security tools and controls",
+      "lifecycle": "operations",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "cloud",
+      "tags": [
+        "cloud",
+        "security",
+        "networking",
+        "compute",
+        "kubernetes",
+        "role:software-engineer",
+        "size:medium"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/operations/use-cloud-native-network-security-tools-and-controls/"
+    },
+    {
+      "id": "GSF-USE-DDOS-PROTECTION",
+      "title": "Use DDoS protection",
+      "lifecycle": "operations",
+      "version": "1.0",
+      "published_date": "2024-03-14",
+      "category": "cloud",
+      "tags": [
+        "cloud",
+        "size:small"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/operations/use-ddos-protection/"
+    },
+    {
+      "id": "GSF-ENCRYPT-WHAT-IS-NECESSARY",
+      "title": "Encrypt what is necessary",
+      "lifecycle": "requirements",
+      "version": "1.0",
+      "published_date": "2023-12-14",
+      "category": "cloud",
+      "tags": [
+        "persona:devops-engineer",
+        "persona:security-engineer",
+        "size:medium",
+        "cloud",
+        "security",
+        "role:cloud-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/requirements/encrypt-what-is-necessary/"
+    },
+    {
+      "id": "GSF-MATCH-SLO",
+      "title": "Match your service level objectives to business needs",
+      "lifecycle": "requirements",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "cloud",
+      "tags": [
+        "Cloud",
+        "Reliability/Availability",
+        "Monitoring",
+        "persona:product-manager",
+        "persona:solution-architect",
+        "persona:devops-engineer",
+        "persona:software-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/requirements/match-slo/"
+    },
+    {
+      "id": "GSF-OPTIMIZE-IMPACT-ON-CUSTOMER-EQUIPMENT",
+      "title": "Optimize impact on customer devices and equipment",
+      "lifecycle": "requirements",
+      "version": "1.0",
+      "published_date": "2022-11-09",
+      "category": "cloud",
+      "tags": [
+        "cloud",
+        "size:small",
+        "persona:software-engineer",
+        "persona:ux-designer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/requirements/optimize-impact-on-customer-equipment/"
+    },
+    {
+      "id": "GSF-SHED-LOWER-PRIORITY-TRAFFIC",
+      "title": "Shed lower priority traffic",
+      "lifecycle": "requirements",
+      "version": "1.0",
+      "published_date": "2022-11-10",
+      "category": "cloud",
+      "tags": [
+        "compute",
+        "monitoring",
+        "reliability-availability",
+        "size:large",
+        "persona:devops-engineer"
+      ],
+      "kevin_status": "EXTERNAL_PATTERN",
+      "repository_analysis": "CONTEXT_OR_RUNTIME_REQUIRED",
+      "source_url": "https://patterns.greensoftware.foundation/catalog/requirements/shed-lower-priority-traffic/"
+    }
+  ]
+}
