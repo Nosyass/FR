@@ -1,0 +1,235 @@
+SLIDE 3 — Des fondations à l’IA générative
+Sous-titre : Quelques familles de concepts permettent de comprendre l’évolution des usages.
+
+AI — Intelligence artificielle
+Systèmes capables de réaliser des tâches associées à l’intelligence humaine.
+Exemples : comprendre, classer, recommander, générer.
+
+Machine Learning
+Approche dans laquelle un système apprend des régularités à partir de données au lieu de suivre uniquement des règles écrites à la main.
+
+Deep Learning
+Famille de Machine Learning basée sur des réseaux de neurones avec plusieurs couches.
+
+IA générative
+IA capable de produire de nouveaux contenus : texte, code, images, synthèses ou réponses structurées.
+
+LLM
+Grand modèle de langage entraîné sur de grands volumes de texte et de code pour comprendre et générer du langage.
+
+À retenir : L’IA générative est une famille d’IA. Les LLM sont les modèles qui rendent possibles beaucoup d’assistants textuels.
+
+
+SLIDE 4 — Comment fonctionne un LLM en pratique
+Sous-titre : Un modèle transforme une demande en réponse en s’appuyant sur le contexte disponible.
+
+Prompt
+La demande envoyée au modèle. Elle peut contenir une question, une consigne, un extrait de document ou du code.
+
+Tokens
+Petites unités de texte traitées par le modèle. Plus le contexte est long, plus le nombre de tokens augmente.
+
+Contexte
+Informations visibles par le modèle au moment de répondre : prompt, documents, historique ou code fourni.
+
+Inférence
+Moment où le modèle génère une réponse à partir du prompt et du contexte.
+
+Réponse
+Texte, code, résumé ou résultat structuré produit par le modèle.
+
+Hallucination
+Réponse plausible en apparence, mais incorrecte ou non supportée par les sources disponibles.
+
+Biais
+Déformation systématique pouvant venir des données, du modèle ou de la façon dont l’outil est utilisé.
+
+
+SLIDE 5 — Donner du contexte à l’IA
+Sous-titre : RAG et Knowledge Base permettent de relier un LLM à des connaissances utiles.
+
+Documents
+Procédures, guides, pages techniques, exigences ou extraits métier.
+
+Indexation
+Préparation des contenus pour les rendre recherchables.
+
+Embeddings
+Représentation numérique du sens d’un texte pour comparer des contenus proches.
+
+Knowledge Base
+Ensemble structuré de connaissances utilisées comme source fiable.
+
+RAG
+Le système retrouve les informations pertinentes avant de générer la réponse.
+
+Grounding
+Ancrer une réponse dans des informations disponibles et pertinentes afin de réduire les réponses non justifiées.
+
+Illustration IT PS
+Des connaissances internes approuvées peuvent enrichir les réponses de certains assistants ou cas d’usage.
+
+
+SLIDE 6 — De l’assistant à l’IA agentique
+Sous-titre : Le changement principal : passer de produire une réponse à réaliser ou coordonner des actions.
+
+Chatbot
+Dialogue simple avec un utilisateur. Il répond selon des règles ou un modèle, mais reste limité dans les actions.
+
+AI Assistant
+Aide à rédiger, résumer, expliquer, rechercher ou reformuler.
+Exemples IT PS : My Companion, M365 Copilot.
+
+AI Agent
+Peut utiliser des outils ou services pour atteindre un objectif. Il ne se limite pas à générer du texte.
+
+Agentic AI
+Peut planifier, appeler des outils, exécuter plusieurs étapes, observer et adapter la suite.
+
+À retenir : Un assistant aide à produire ou comprendre. Un agent peut agir avec des outils. L’IA agentique organise plusieurs étapes.
+
+
+SLIDE 7 — Les briques de l’IA agentique
+Sous-titre : Ces termes expliquent comment un agent peut aller au-delà d’une simple réponse.
+
+Tool
+Capacité externe utilisée par un agent : API, recherche, application ou service.
+
+Tool Calling
+Mécanisme permettant au modèle de demander l’exécution d’une fonction ou d’un outil.
+
+Planning
+Découper un objectif en étapes avant de les exécuter.
+
+Memory
+Informations conservées et réutilisées pendant un workflow, selon la solution.
+
+Orchestration
+Coordination entre modèles, agents, outils et étapes.
+
+Human in the Loop
+Point de validation humaine avant certaines actions ou décisions.
+
+Guardrails
+Règles qui encadrent les entrées, sorties ou actions de l’IA.
+
+Multi-agent
+Plusieurs agents spécialisés coopèrent autour d’une demande complexe.
+
+Lecture simple : Un agent ne possède pas seulement un modèle. Il combine objectif, outils, règles, contexte et parfois validation humaine.
+
+
+SLIDE 8 — AI Skills, Facets et Green IT
+Sous-titre : Un moyen simple de relier les concepts agentiques à des pratiques concrètes dans IT PS.
+
+AI Skill
+Capacité réutilisable contenant des consignes, connaissances ou règles spécialisées.
+En simple : donner à l’IA une manière de travailler sur un sujet précis.
+
+Facet
+Angle spécialisé d’analyse appliqué à un projet ou repository existant.
+En simple : regarder un projet avec une grille de lecture précise.
+
+Green IT practices
+Bonnes pratiques et recommandations pour concevoir, analyser ou améliorer des applications plus sobres.
+
+Developer assistants
+Dans la cible décrite pour l’offre AI, DevX / DevX NextGen / IBM Bob AI peuvent partager des Green IT skills avec les assistants et LLM développeurs.
+
+Kevin
+Kevin peut appliquer une Green IT facet pour analyser un repository existant, pointer du code ou des patterns et fournir des pistes d’amélioration.
+
+
+SLIDE 9 — Agents connectés à l’entreprise
+Sous-titre : Les agents peuvent utiliser des interfaces et protocoles pour accéder à des outils, des données et d’autres systèmes.
+
+API
+Interface standard qui permet à deux systèmes d’échanger des données ou de déclencher une action.
+
+Connecteur
+Composant d’intégration qui relie une application IA à une source, un service ou un outil.
+
+MCP
+Protocole ouvert qui standardise la manière dont une application IA découvre et utilise des outils ou des sources de contexte.
+Note : notion générale de l’écosystème agentique. Son usage dans IT PS doit être confirmé.
+
+Multi-agent
+Plusieurs agents spécialisés peuvent se répartir des tâches et coopérer autour d’un objectif commun.
+
+Lecture simple : API et connecteurs donnent accès aux systèmes ; MCP standardise l’exposition d’outils et de contexte ; le multi-agent coordonne plusieurs agents spécialisés.
+
+
+SLIDE 10 — Les concepts dans l’écosystème IT PS
+Sous-titre : Les offres IT PS servent ici d’illustrations des concepts, pas de catalogue produit détaillé.
+
+My Companion / M365 Copilot
+AI assistant, IA générative, assistance contextualisée.
+
+Microsoft Copilot Agents
+Agent, usage d’outils, automatisation de tâches.
+
+LLMaaS / GenAI Gateway / LiteLLM
+Accès centralisé aux modèles, API, quota, gouvernance.
+
+DevX / DevX NextGen
+Développement assisté par IA, workflows de développement agentiques.
+
+IBM Bob AI
+IDE agentique, workflows de coding, AI skills partagées.
+
+Kevin
+Analyse de repositories, facets, documentation, revue Green IT.
+
+TWIN
+Connaissance IT, analyse opérationnelle, agents spécialisés selon les capacités documentées.
+
+AI4DEV
+Adoption, formation, pratiques et accompagnement.
+
+Green IT
+Skills, facets et recommandations de sustainable software engineering.
+
+
+SLIDE 11 — Repères à retenir
+Sous-titre : Une lecture simple des notions clés pour partager un vocabulaire commun.
+
+LLM
+Génère ou analyse du langage à partir d’un prompt et d’un contexte.
+
+RAG
+Apporte des connaissances pertinentes avant de générer la réponse.
+
+Assistant
+Aide à produire, résumer, expliquer ou rechercher.
+
+Agent
+Peut utiliser des outils pour agir vers un objectif.
+
+Agentic AI
+Combine planification, outils, exécution et adaptation.
+
+AI Skill
+Guide l’IA avec une capacité ou pratique réutilisable.
+
+Facet
+Analyse un sujet selon un angle spécialisé.
+
+Guardrails
+Encadrent les usages, résultats et actions de l’IA.
+
+Conclusion
+Le glossaire explique les concepts. Les offres IT PS servent ensuite à illustrer comment ces concepts apparaissent dans les usages.
+
+
+ANNEXES RECOMMANDÉES — conserver le contenu technique du glossaire de référence
+GPU / infrastructure GPU mutualisée
+RHOAI / Red Hat OpenShift AI
+MLOps
+Runtime
+Package manager
+Port forwarding
+Fine-tuning
+API Key / Quota
+Azure AI Containers
+Context optimization / token efficiency
+Exemples techniques possibles : RTK, targeted code retrieval, context summarization.
